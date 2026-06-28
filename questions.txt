@@ -1,0 +1,7 @@
+load_dataset.py 
+
+Normalization stabilizes neural network training, while squeezing removes redundant matrix dimensions from the target labels.
+
+Image pixels are originally stored as integers from 0 to 255. Dividing by 255.0 scales these values to a floating-point range between 0.0 and 
+
+By default, Keras loads CIFAR-10 labels with a shape of (50000, 1), which is a 2D column matrix. Calling .squeeze() changes this shape to a 1D array of (50000,)

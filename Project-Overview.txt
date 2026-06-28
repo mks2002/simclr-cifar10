@@ -1,0 +1,51 @@
+ssl_cifar10_simclr/
+│
+├── config.py          ✅
+├── load_dataset.py    ✅
+├── augmentations.py
+├── encoder.py
+├── projection_head.py
+├── simclr_loss.py
+├── ssl_pretraining.py
+├── classifier.py
+├── finetuning.py
+├── evaluation.py
+├── utils.py
+└── main.py
+
+
+
+Part 1
+
+✅ config.py
+✅ load_dataset.py
+
+Part 2
+
+✅ augmentations.py
+
+Part 3
+
+✅ encoder.py
+✅ projection_head.py
+
+Part 4
+
+✅ simclr_loss.py
+
+Part 5
+
+✅ ssl_pretraining.py
+
+Part 6
+
+✅ classifier.py
+✅ finetuning.py
+
+Part 7
+
+✅ evaluation.py
+
+Part 8
+
+✅ main.py
